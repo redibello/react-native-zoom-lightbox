@@ -220,7 +220,7 @@ export default class SingleImage extends PureComponent {
       panning && { top: this.pan },
     ];
     return (
-      <Animated.View style={containerStyle} k>
+      <Animated.View style={[containerStyle, {width: "100%", height: "100%"}]} k>
         <ScrollView
           ref={ref => {
             if (ref) {
