@@ -227,6 +227,7 @@ export default class SingleImage extends PureComponent {
               ref.scrollResponderHandleStartShouldSetResponder = () => true;
             }
           }}
+          style={{flex:1}}
           contentContainerStyle={{ flex: 1 }}
           maximumZoomScale={2}
           alwaysBounceVertical={false}
